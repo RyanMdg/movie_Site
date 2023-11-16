@@ -3,8 +3,8 @@ import "../globals.css";
 
 function hero() {
   return (
-    <div className=" grid sm:grid-cols-2 max-sm:gap-[2rem] mt-[5rem] md:mx-[8rem] ">
-      <div className=" ps-10 flex flex-col gap-5  justify-center">
+    <div className=" grid sm:grid-cols-2 max-sm:gap-[2rem] mt-[5rem] lg:mx-[8rem] ">
+      <div className=" ps-5 flex flex-col gap-5  justify-center">
         <h1 className=" uppercase text-[#D70000] font-bold">
           The INSURRECTION
         </h1>
