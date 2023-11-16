@@ -1,19 +1,20 @@
 import React from "react";
+import "../globals.css";
 
 function hero() {
   return (
-    <div className=" grid grid-cols-2 mt-[5rem] mx-[8rem] ">
-      <div className=" flex flex-col gap-5 justify-center">
+    <div className=" grid sm:grid-cols-2 max-sm:gap-[2rem] mt-[5rem] md:mx-[8rem] ">
+      <div className=" ps-10 flex flex-col gap-5  justify-center">
         <h1 className=" uppercase text-[#D70000] font-bold">
           The INSURRECTION
         </h1>
-        <p>
+        <p className=" uppercase">
           A lower class revolution turns the world equality upside down against
           the higher class corporates in any way he could.
         </p>
         <a
           href=""
-          className=" text-center w-[20%] uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
+          className=" text-center w-[7rem] uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
         >
           {" "}
           watch
