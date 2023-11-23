@@ -1,12 +1,14 @@
 import React from "react";
 import "../globals.css";
 
-function traillervid() {
+function Traillervid() {
   return (
-    <div className=" outline-none  flex items-center flex-col my-5">
-      <h1 className=" text-white">Your Next.js Video App</h1>
+    <div id="traillerSection" className="flex items-center flex-col my-5">
+      <h1 className="text-[#000] px-6 text-2xl uppercase bg-[#D70000] font-semibold mb-4">
+        the INSURRECTION Official-trailer
+      </h1>
       <video
-        className=" rounded-md shadow-lg border-red-500"
+        className="rounded-md shadow-lg border-red-500"
         width="800"
         height="360"
         controls
@@ -18,4 +20,4 @@ function traillervid() {
   );
 }
 
-export default traillervid;
+export default Traillervid;

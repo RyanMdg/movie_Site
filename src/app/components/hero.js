@@ -1,7 +1,14 @@
 import React from "react";
 import "../globals.css";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 function hero() {
+  const scrollToTrailler = () => {
+    scroll.scrollTo("traillerSection", {
+      smooth: true,
+      offset: -50, // Adjust the offset based on your layout
+    });
+  };
   return (
     <div className=" grid sm:grid-cols-2 max-sm:gap-[2rem] mt-[5rem] lg:mx-[8rem] mb-[5rem] ">
       <div className=" ps-5 flex flex-col gap-5  justify-center">
@@ -14,20 +21,23 @@ function hero() {
           the higher class corporates in any way he could.
         </p>
         <div className=" flex gap-5">
-          <a
-            href=""
-            className=" text-center  uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
+          <ScrollLink
+            to="traillerSection"
+            smooth={true}
+            className="text-center hover:cursor-pointer hover:bg-[#D70000] hover:text-[#000] hover:font-bold uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
+            onClick={scrollToTrailler}
           >
-            {" "}
-            watch
-          </a>
-          <a
-            href=""
-            className=" text-center  uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
+            Watch
+          </ScrollLink>
+
+          <ScrollLink
+            to="traillerSection"
+            smooth={true}
+            className="text-center hover:cursor-pointer hover:bg-[#D70000] hover:text-[#000] hover:font-bold uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
+            onClick={scrollToTrailler}
           >
-            {" "}
-            trailler
-          </a>
+            Trailer
+          </ScrollLink>
         </div>
       </div>
       <div className=" flex justify-center">
