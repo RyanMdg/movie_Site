@@ -16,7 +16,7 @@ function hero() {
           The INSURRECTION
         </h1>
 
-        <p className=" uppercase text-white">
+        <p className=" uppercase text-[#d9d9d9]">
           A lower class revolution turns the world equality upside down against
           the higher class corporates in any way he could.
         </p>

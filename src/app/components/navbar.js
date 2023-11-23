@@ -22,17 +22,17 @@ const Navbar = () => {
   return (
     <nav className=" p-4">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="text-white">
+        <div className="text-[#d9d9d9]">
           <p className="text-lg font-bold uppercase">the Insurrection </p>
         </div>
         <div className="hidden md:flex space-x-4">
           <Link href="/">
-            <p className="text-white cursor-pointer" onClick={closeNavbar}>
+            <p className="text-[#d9d9d9] cursor-pointer" onClick={closeNavbar}>
               Home
             </p>
           </Link>
           <Link href="/about">
-            <p className="text-white cursor-pointer" onClick={closeNavbar}>
+            <p className="text-[#d9d9d9] cursor-pointer" onClick={closeNavbar}>
               About
             </p>
           </Link>

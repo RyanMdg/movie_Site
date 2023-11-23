@@ -16,6 +16,32 @@ function Traillervid() {
         <source src="/clip1.MOV" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      <article className=" grid gap-5 sm:grid-cols-2 lg:mx-[10rem] ">
+        <p className="text-[#d9d9d9c8] mt-5 ps-10">
+          News outlets report the collapse of a structure in a construction
+          site. Many workers are found dead and injured on the scene. Andres,
+          one of the construction workers of the project seems to know
+          something. With the help of his friend and an unexpected ally, they
+          set out to turn the tables against the big corporation that caused
+          this incident. But as they set out for retribution, they face many
+          dangers and threats along the way.
+        </p>
+        <p className="text-[#d9d9d9c8] flex flex-col  mt-5 ps-10">
+          <span>
+            <span className="text-[#616161]">Cast:</span> Aven Mijares,Ryan De
+            guia,Princess althea{" "}
+          </span>
+          <span>
+            <span className="text-[#616161]">Genres:</span>{" "}
+            Filipino,Comedy,Actions
+          </span>
+          <span>
+            <span className="text-[#616161]">The Movie is:</span>{" "}
+            tawa,seryoso,kawawa
+          </span>
+        </p>
+      </article>
     </div>
   );
 }
